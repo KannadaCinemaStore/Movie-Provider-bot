@@ -130,7 +130,7 @@ HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://rare-bobina-ravikumar1.koyeb.app/".format(FQDN)
 else:
-    URL = "http://rare-bobina-ravikumar1.koyeb.app/".format(FQDN)
+    URL = "https://rare-bobina-ravikumar1.koyeb.app/".format(FQDN)
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
 OWNER_USERNAME = "LazyDeveloper"
 
