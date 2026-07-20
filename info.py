@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'papajiurl.com'))
-STREAM_API = (environ.get('STREAM_API', 'a0ee032d61824767b027fe5ae77cf1fb11a8d40b'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'arolinks.com'))
+STREAM_API = (environ.get('STREAM_API', 'f900a0647e3cf536a0862e5548baf3bea4b2273f'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Open_Links_bypass'))
 
 # Admins, Channels & Users
