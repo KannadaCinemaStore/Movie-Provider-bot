@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'shortxlinks.com'))
-STREAM_API = (environ.get('STREAM_API', '6b1448954c0ae5b33c6bcc9b22a309d39e42d71d'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modishort.com'))
+STREAM_API = (environ.get('STREAM_API', '097f7945a43fe28d8fc813316127ba8677bc19ba'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Open_Links_bypass'))
 
 # Admins, Channels & Users
