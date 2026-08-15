@@ -62,8 +62,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_To_Open_Links_bypass') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'papajiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a0ee032d61824767b027fe5ae77cf1fb11a8d40b')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modishort.com/')
+SHORTLINK_API = environ.get('SHORTLINK_API', '097f7945a43fe28d8fc813316127ba8677bc19ba')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
