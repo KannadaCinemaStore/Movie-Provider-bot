@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'modishort.com'))
-STREAM_API = (environ.get('STREAM_API', '097f7945a43fe28d8fc813316127ba8677bc19ba'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'liteshort.com'))
+STREAM_API = (environ.get('STREAM_API', '6e8893212935db00822bb1d3d0c0119c3479870d'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Open_Links_bypass'))
 
 # Admins, Channels & Users
@@ -62,8 +62,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_To_Open_Links_bypass') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modishort.com/')
-SHORTLINK_API = environ.get('SHORTLINK_API', '097f7945a43fe28d8fc813316127ba8677bc19ba')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'liteshort.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6e8893212935db00822bb1d3d0c0119c3479870d')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
